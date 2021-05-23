@@ -25,13 +25,10 @@ export default function DateTime() {
           <span className="units"></span>
 
           <span className="unitlinks">
-            <a href="#" id="celsius-link" className="active">
-              °C
-            </a>{" "}
-            |
-            <a href="#" id="fahrenheit-link">
-              °F
-            </a>
+            <button id="celsius-link" className="active">
+              °C{" "}
+            </button>
+            |<button id="fahrenheit-link">°F</button>
           </span>
         </div>
         <div className="col-4">
